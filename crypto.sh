@@ -1,4 +1,5 @@
-#!/bin/bash                                                             
+#!/bin/bash     
+clear                                                        
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 RED='\033[0;31m'
@@ -35,6 +36,8 @@ case $CMD in
                 mkdir ethminer
                 wget -O ethminer/ethminer.tar.gz https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz
                 tar xzf ethminer/ethminer.tar.gz -C ethminer/
+                clear
+                echo -e "$GREEN COMPLETED INSTALLATION !${NC}"
                 echo -e "$GREEN STARTING ETHMINER ...${NC}"
                 cd ethminer/bin/
                 read -p "enter your ethpool wallet adress : " tokenvar
@@ -65,8 +68,12 @@ case $CMD in
                 mkdir ethminer
                 wget -O ethminer/ethminer.tar.gz https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz
                 tar xzf ethminer/ethminer.tar.gz -C ethminer/
+                clear
+                echo -e "$GREEN COMPLETED INSTALLATION !${NC}"
                 ;;
         *)
                 echo -e "$RED ERROR ! $CMD ARE NOT VALID${NC}"    
                 ;;
 esac
+
+# By 4lxprime
