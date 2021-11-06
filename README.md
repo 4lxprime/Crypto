@@ -17,8 +17,11 @@ chmod +x crypto-v2.sh
 ```
 # How to use :
 Crypto : 
+
 Crypto is easy to use and very light, to launch it you just have to do : 
 select 1 for install and start ethminer, select 2 for start ethminer and select 3 for install ethminer.
+
 Crypto-v2 : 
+
 Crypto is easy to use and very light, to launch it you just have to do : 
 select 1 for install and start cpuminer-multi, select 2 for start cpuminer-multi and select 3 for install cpuminer-multi.
