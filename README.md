@@ -1,5 +1,5 @@
 # Crypto
-Crypto is an ethminer configurator and facilitates its installation and deployment 
+Crypto is a small software developed in shell allowing to download, install and launch ethminer in one click. 
 # How to install :
 For install Crypto you have to do :
 ```
